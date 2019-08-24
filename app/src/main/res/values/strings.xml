@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Now Playing Movies</string>
+    <string name="name_title">Judul Film</string>
+    <string name="description">Ini Deskripsi</string>
+
+    <string-array name="data_title">
+        <item>Fast &amp; Furious Presents: Hobbs &amp; Shaw</item>
+        <item>The Lion King</item>
+        <item>Angel Has Fallen</item>
+        <item>Good Boys</item>
+        <item>Once Upon a Time in Hollywood</item>
+        <item>The Angry Birds Movie 2</item>
+        <item>Ready or Not</item>
+        <item>47 Meters Down: Uncaged</item>
+        <item>Dora and the Lost City of Gold Dora and the Lost City of Gold</item>
+        <item>Jacob's Ladder</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>A spinoff of The Fate of the Furious, focusing on Johnson's US Diplomatic Security Agent Luke Hobbs forming an unlikely alliance with Statham's Deckard Shaw.</item>
+        <item>Simba idolises his father, King Mufasa, and takes to heart his own royal destiny. But not everyone in the kingdom celebrates the new cub's arrival. Scar, Mufasa's brother—and former heir to the throne—has plans of his own. The battle for Pride Rock is ravaged with betrayal, tragedy and drama, ultimately resulting in Simba's exile. With help from a curious pair of newfound friends, Simba will have to figure out how to grow up and take back what is rightfully his.</item>
+        <item>Secret Service Agent Mike Banning is framed for the attempted assassination of the President and must evade his own agency and the FBI as he tries to uncover the real threat.</item>
+        <item>A group of young boys on the cusp of becoming teenagers embark on an epic quest in the San Fernando Valley to fix their broken toy before their parents get home.</item>
+        <item>A faded television actor and his stunt double strive to achieve fame and success in the film industry during the final years of Hollywood's Golden Age in 1969 Los Angeles.</item>
+        <item>Red, Chuck, Bomb and the rest of their feathered friends are surprised when a green pig suggests that they put aside their differences and unite to fight a common threat. Aggressive birds from an island covered in ice are planning to use an elaborate weapon to destroy the fowl and swine.</item>
+        <item>A bride\'s wedding night takes a sinister turn when her eccentric new in-laws force her to take part in a terrifying game.</item>
+        <item>A group of backpackers diving in a ruined underwater city discover that they have stumbled into the territory of the ocean's deadliest shark species.</item>
+        <item>Dora, a girl who has spent most of her life exploring the jungle with her parents, now must navigate her most dangerous adventure yet: high school. Always the explorer, Dora quickly finds herself leading Boots (her best friend, a monkey), Diego, and a rag tag group of teens on an adventure to save her parents and solve the impossible mystery behind a lost Inca civilization.</item>
+        <item>After losing his brother in combat, Jacob Singer returns home from Afghanistan -- only to be pulled into a mind-twisting state of paranoia. Singer soon realizes that his sibling is alive but life is not what it seems.</item>
+    </string-array>
+
+    <string-array name="release">
+        <item>August 2, 2019</item>
+        <item>July 19, 2019</item>
+        <item>August 23, 2019</item>
+        <item>August 16, 2019</item>
+        <item>July 26, 2019</item>
+        <item>August 14, 2019</item>
+        <item>August 21, 2019</item>
+        <item>August 16, 2019</item>
+        <item>August 9, 2019</item>
+        <item>August 23, 2019</item>
+    </string-array>
+
+    <string-array name="rating">
+        <item>65*</item>
+        <item>71*</item>
+        <item>66*</item>
+        <item>68*</item>
+        <item>76*</item>
+        <item>57*</item>
+        <item>83*</item>
+        <item>57*</item>
+        <item>58*</item>
+        <item>73*</item>
+    </string-array>
+
+    <array name="data_photo">
+        <item>@drawable/fast_furious</item>
+        <item>@drawable/the_lion_king</item>
+        <item>@drawable/angel_has</item>
+        <item>@drawable/good_boys</item>
+        <item>@drawable/once_upon</item>
+        <item>@drawable/the_angry_birds</item>
+        <item>@drawable/ready_or_not</item>
+        <item>@drawable/a_meters</item>
+        <item>@drawable/dora</item>
+        <item>@drawable/jacob</item>
+    </array>
+</resources>
