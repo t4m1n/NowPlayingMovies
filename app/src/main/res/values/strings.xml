@@ -1,7 +1,10 @@
 <resources>
-    <string name="app_name">Now Playing Movies</string>
+    <string name="app_name">Movie Catalogue</string>
     <string name="name_title">Judul Film</string>
     <string name="description">Ini Deskripsi</string>
+    <string name="rating">Rating</string>
+    <string name="release">Release</string>
+    <string name="overview">Overview</string>
 
     <string-array name="data_title">
         <item>Avengers: Infinity War</item>
@@ -31,7 +34,7 @@
         <item>Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.</item>
     </string-array>
 
-    <string-array name="release">
+    <string-array name="data_release">
         <item>April 25, 2018</item>
         <item>December 13, 2018</item>
         <item>December 11, 2018</item>
@@ -45,7 +48,7 @@
         <item>September 28, 2018</item>
     </string-array>
 
-    <integer-array name="rating">
+    <integer-array name="data_rating">
         <item>83</item>
         <item>70</item>
         <item>69</item>

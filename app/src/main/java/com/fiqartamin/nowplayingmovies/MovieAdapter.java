@@ -51,18 +51,22 @@ public class MovieAdapter extends BaseAdapter{
     }
 
     private class ViewHolder {
-        private TextView txtTitle, txtDescription;
+        private TextView txtTitle, txtDescription, txtRelease, txtRating;
         private ImageView imgPhoto;
 
         ViewHolder(View view){
             txtTitle = view.findViewById(R.id.txt_title);
             txtDescription = view.findViewById(R.id.txt_description);
+            txtRating = view.findViewById(R.id.txt_rating);
+            txtRelease = view.findViewById(R.id.txt_release);
             imgPhoto = view.findViewById(R.id.img_photo);
         }
 
         void bind(Movie movie) {
             txtTitle.setText(movie.getTitle());
             txtDescription.setText(movie.getDescription());
+            txtRating.setText(" Rat "+movie.getRating()+"* ");
+            txtRelease.setText(" "+movie.getRelease()+" ");
             imgPhoto.setImageResource(movie.getPhoto());
         }
     }

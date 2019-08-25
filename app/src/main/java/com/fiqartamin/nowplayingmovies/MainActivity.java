@@ -12,7 +12,8 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-    private String[] dataTitle, dataDescription;
+    private String[] dataTitle, dataDescription, dataRelease;
+    private int[] dataRating;
     private TypedArray dataPhoto;
     private MovieAdapter adapter;
     private ArrayList<Movie> movies;
@@ -49,6 +50,8 @@ public class MainActivity extends AppCompatActivity {
             movie.setPhoto(dataPhoto.getResourceId(i, -1));
             movie.setTitle(dataTitle[i]);
             movie.setDescription(dataDescription[i]);
+            movie.setRating(dataRating[i]);
+            movie.setRelease(dataRelease[i]);
             movies.add(movie);
         }
         adapter.setMovies(movies);
@@ -57,6 +60,8 @@ public class MainActivity extends AppCompatActivity {
     private void prepare() {
         dataTitle = getResources().getStringArray(R.array.data_title);
         dataDescription = getResources().getStringArray(R.array.data_description);
+        dataRating = getResources().getIntArray(R.array.data_rating);
+        dataRelease = getResources().getStringArray(R.array.data_release);
         dataPhoto = getResources().obtainTypedArray(R.array.data_photo);
     }
 }
